@@ -1,0 +1,44 @@
+:root{
+    --color-vino:#4D281D;
+    --color-amarillo:#F7E34E;
+}
+
+/*--Colores para fondo --*/
+.bg-vino{
+    background-color: var(--color-vino);
+    color: #fff;
+}
+.bg-amarillo{
+    background-color: var(--color-amarillo);
+    color: #000;
+}
+.text-vino{
+    color: var(--color-vino);
+}
+.texto-amarillo{
+    color: var(--color-amarillo);
+}
+.icon-text{
+    margin-right: 5px;
+}
+
+
+/*Estilo personalizado para las tablas*/
+
+/*--Encabezado de la tabla --*/
+.datatable table.dataTable thead, .datatable table.dataTable tfoot{
+    color: var(--color-vino);
+}
+
+/*--Paginacion de la tabla --*/
+.page-item.active .page-link {
+    
+    color: #fff;
+    background-color: var(--color-vino);
+    border-color: var(--color-vino);
+}
+
+/*Estilo Miga de Pan*/
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
